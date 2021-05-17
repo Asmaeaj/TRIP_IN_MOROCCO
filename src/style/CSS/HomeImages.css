@@ -1,0 +1,70 @@
+* {
+    /* comme dans les expression regulier wla f linux '*' signifie 'quelque soit' */
+    /* hado qlq style likat dirhom 3la kolchi 3ad kan bda nkhdem surtout bach n7yd margin ta3 body dima kikon so ana kan 7ydha l kolchi, mais ymkn deri selector ghir 3la body o thenay */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* puis f li maji bedelt ga3 500px b 100vh/vw likant 3ni view width/height unité kat represente pourcentage dial la fenetre entiere */
+
+.slider {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* z index hia position z  */
+    /* dertha hit hadi atb9a background: https://developer.mozilla.org/fr/docs/Web/CSS/z-index */
+    z-index: -1;
+    /* bach enfin nkharejha men flux dial les elements  */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slides {
+    /* width: calc(500px * 6); */
+    width: 600vw;
+    /* c est pas la peine nsta3mel fonction calc hna */
+    animation: glissement 30s infinite;
+}
+
+.slide {
+    float: left;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slider-img {
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes glissement {
+    0% {
+        transform: translateX(0);
+    }
+
+    17% {
+        transform: translateX(-100vw);
+    }
+
+    34% {
+        transform: translateX(-200vw);
+    }
+
+    51% {
+        transform: translateX(-300vw);
+    }
+
+    67% {
+        transform: translateX(-400vw);
+    }
+
+    84% {
+        transform: translateX(-500vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
