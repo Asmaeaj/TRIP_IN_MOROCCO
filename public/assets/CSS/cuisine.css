@@ -1,0 +1,19 @@
+.leftside, .rightside{
+	height: 50vh;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px){
+	.leftside, .rightside{
+		height: 100vh;
+	}
+}
+
+.leftside{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(C:/Users/hp/Desktop/HTML/website/pic10.jpg);
+	background-position: all;
+}
+
+.rightside{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(C:/Users/hp/Desktop/HTML/website/pic11.jpg);
+}
