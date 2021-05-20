@@ -92,24 +92,6 @@ nav ul li a:hover {
   transition: transform 0.5s;
   float: left;
 }
-.card1 {
-  background-image: url(../../../public/assets/Pictures/pic6.jpg);
-}
-.card2 {
-  background-image: url(../../../public/assets/Pictures/pic7.jpg);
-}
-.card3 {
-  background-image: url(../../../public/assets/Pictures/pic2.jpg);
-}
-.card4 {
-  background-image: url(../../../public/assets/Pictures/pic4.jpg);
-}
-.card5 {
-  background-image: url(../../../public/assets/Pictures/pic8.jpg);
-}
-.card6 {
-  background-image: url(../../../public/assets/Pictures/pic9.jpg);
-}
 
 .card:hover {
   transform: translateY(-10px);
