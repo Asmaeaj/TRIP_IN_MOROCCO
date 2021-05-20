@@ -20,7 +20,7 @@ h1 {
   0% {
     transform: translate(70px, 100px);
   }
-  50%% {
+  50% {
     transform: translate(100px, 150px);
   }
   100% {
