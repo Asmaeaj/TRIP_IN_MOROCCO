@@ -29,6 +29,7 @@ h1 {
 }
 h2 {
   font-size: 4.8rem;
+  font-family: "Lobster", cursive;
 }
 h3 {
   font-size: 2.8rem;
@@ -79,8 +80,8 @@ nav ul li a:hover {
 
 img {
   margin-right: 30px;
-  margin-left: -30px;
-  margin-top: -10px;
+  margin-left: -100px;
+  margin-top: -20px;
   background-color: white;
 }
 

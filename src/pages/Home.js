@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../style/CSS/Home.css";
 import "../style/CSS/HomeImages.css";
+import { Link } from "react-router-dom";
 
 class Home extends Component {
   render() {
@@ -9,22 +10,46 @@ class Home extends Component {
         <div className="slider">
           <div className="slides">
             <div className="slide">
-              <img src="assets/Pictures/pic3.jpg" className="slider-img" alt="" />
+              <img
+                src="assets/Pictures/pic3.jpg"
+                className="slider-img"
+                alt=""
+              />
             </div>
             <div className="slide">
-              <img src="assets/Pictures/pic7.jpg" className="slider-img" alt="" />
+              <img
+                src="assets/Pictures/pic7.jpg"
+                className="slider-img"
+                alt=""
+              />
             </div>
             <div className="slide">
-              <img src="assets/Pictures/pic2.jpg" className="slider-img" alt="" />
+              <img
+                src="assets/Pictures/pic2.jpg"
+                className="slider-img"
+                alt=""
+              />
             </div>
             <div className="slide">
-              <img src="assets/Pictures/pic4.jpg" className="slider-img" alt="" />
+              <img
+                src="assets/Pictures/pic4.jpg"
+                className="slider-img"
+                alt=""
+              />
             </div>
             <div className="slide">
-              <img src="assets/Pictures/pic8.jpg" className="slider-img" alt="" />
+              <img
+                src="assets/Pictures/pic8.jpg"
+                className="slider-img"
+                alt=""
+              />
             </div>
             <div className="slide">
-              <img src="assets/Pictures/pic9.jpg" className="slider-img" alt="" />
+              <img
+                src="assets/Pictures/pic9.jpg"
+                className="slider-img"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -32,22 +57,21 @@ class Home extends Component {
           <nav>
             <img
               src="assets/Pictures/Logo.png"
-              alt=''
+              alt=""
               style={{ width: 50, height: 50, borderRadius: 8 }}
             />
 
             <h1 id="logo">Trip In Morocco</h1>
-
             <ul className="head">
               <li>
-                <a href="#">Acceuil</a>
+                <Link to="/">Acceuil</Link>
               </li>
               <li>
-                <a href="#">Services</a>
+                <Link to="/">Services</Link>
               </li>
               {/*</ul><li onclick={(window.location.href = "about.html")}>*/}
               <li>
-                <a href="#">À propos de Nous</a>
+                <Link to="/about">A propos de nous</Link>
               </li>
             </ul>
           </nav>
